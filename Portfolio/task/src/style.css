@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#anchors{
+    grid-column: 3/4;
+    text-align: center;
+}
+
+header{
+    height: 40vh;
+    background: url("image/bg.jpg");
+    background-size: cover;
+}
+
+footer{
+    background: rgb(60, 25, 25);
+}
+
+#about{
+    background: rgba(95, 82, 82, 0.21);
+}
+
+#portfolio{
+    background: rgba(95, 82, 82, 0.13);
+}
+
+#contacts{
+    background: rgba(47, 39, 39, 0.05);
+}
+
+.images{
+    width: 50%;
+    height: 50%;
+}
+
+.aboutMe{
+    grid-column: 2/3;
+}
+
+#me{
+    grid-column: 1/2;
+}
+
+footer{
+    color: rgb(16, 155, 155);
+}
