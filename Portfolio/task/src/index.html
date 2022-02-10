@@ -24,10 +24,32 @@
     </section>
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <button class="open-window"><img class="images" src="image/project1.png" alt="Flashcards"></button>
+        <img class="images" src="image/project1.png" alt="Flashcards">
+        <button class="open-window btnFlash">Flashcards</button>
         <p>Flashcards</p>
-        <button class="open-window"><img class="images" src="image/project2.png" alt="Virtual Piano"></button>
+        <div class="window modalFlash">
+            <h1>Flashcards</h1>
+            <p>You can see the project at the following link: <a href="https://hyperskill.org/projects/115?track=5">flashcards</a></p>
+            <br>
+            <p>I did this project when I was studying the frontend on HyperSkill. I created</p>
+            <p>a web page with flip-down flash cards, learned some HTML basics and</p>
+            <p>learned that CSS can easily make a beautiful design.</p>
+            <button class="modalCloseFlash">Close</button>
+        </div>
+        <br>
+        <img class="images" src="image/project2.png" alt="Virtual Piano">
+        <button class="open-window btnPiano">Virtual Piano</button>
         <p>Virtual Piano</p>
+        <div class="window modalPiano">
+            <h1>Virtual Piano</h1>
+            <p>You can see the project at the following link: <a href="https://hyperskill.org/projects/101?track=5">virtual piano</a></p>
+            <br>
+            <p>I did this project when I was studying the frontend on HyperSkill. I created</p>
+            <p>a web page with digital piano, learned some HTML basics and</p>
+            <p>learned that CSS and Javascript can easily make a beautiful design.</p>
+            <button class="modalClosePiano">Close</button>
+        </div>
+        <br>
     </section>
         <section id="contacts">
             <a href="https://github.com/Okacou/" target="_black"><img src="image/github.svg" alt="github"></a>
@@ -40,5 +62,6 @@
         <p>John Doe</p>
         <p>2022</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
